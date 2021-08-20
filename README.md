@@ -3,10 +3,11 @@ Mr. Roboger's Neighborhood
 
 #### _{Brief description of application}_
  Web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number 
+
 #### By _**{List of contributors}**_
 Anthony McRae
-## Technologies Used
 
+## Technologies Used
 HTML
 HTML Markup
 CSS
@@ -33,8 +34,8 @@ A user should be able to enter a new number and see new results over and over ag
 **Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5**
 
 ## Specs
-Break the program down into simple, individual behaviors using the test syntax you've learned. Begin with the simplest possible behavior. List these behaviors (also known as "specs" or "specifications") in the project's README.md file. Here's an example first spec. (Note that you can choose to name your function differently - also, your function doesn't necessarily need to output an array - it could output a string instead.)
-## Test
+
+# Test
 Describe: beepBoop()
 
 
@@ -110,19 +111,6 @@ Describe: beepBoop()
 **Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Won't you be my neighbor?,Won't you be my neighbor?]
 
 
-**9 Test:** Any inputs with the number () should return ("")
-
-
-**Code:** numberRoboNumber()
-
-
-**Expected Output:** []
-
-
-
-Describe: beepBoop()
-Test: "It should return an array with a 0 if the number 0 is inputted"
-Expect(beepBoop(0).toEqual([0]);
 
 ## Setup/Installation Requirements
 
@@ -137,7 +125,7 @@ Recommend using the most up to date version of your browser.
 
 Links to GitHub repositories can be run in VSCode or a similar application.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 
 ## Known Bugs
 

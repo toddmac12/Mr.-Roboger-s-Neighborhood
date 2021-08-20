@@ -18,7 +18,7 @@ function numberRoboNumber(number) {
   for (let i = 0; i <= number; i++) {
     if (i.toString().includes(3)) {
       numberUserOutput.push("Won't you be my neighbor?");
-    } else if (i.toString().inclues(2)) {
+    } else if (i.toString().includes(2)) {
       numberUserOutput.push("Boop !");
     } else if (i.toString().includes(1)) {
       numberUserOutput.push("Beep !");
@@ -36,6 +36,6 @@ $(document).ready(function () {
     event.preventDefault();
     let number = $("#numberInput").val();
     let output = numberRoboNumber(number);
-    $("numberOutput").text(output);
+    $("#numberOutput").text(output);
   });
 });
