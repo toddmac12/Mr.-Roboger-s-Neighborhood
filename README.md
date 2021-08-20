@@ -10,6 +10,7 @@ Anthony McRae
 HTML
 HTML Markup
 CSS
+JSfiddle
 JavaScript
 Bootstrap
 VSCode
@@ -35,10 +36,12 @@ Example: If a user inputs a 5, the program should display a list of values: "0",
 Break the program down into simple, individual behaviors using the test syntax you've learned. Begin with the simplest possible behavior. List these behaviors (also known as "specs" or "specifications") in the project's README.md file. Here's an example first spec. (Note that you can choose to name your function differently - also, your function doesn't necessarily need to output an array - it could output a string instead.)
 ## Test
 Describe: beepBoop()
+
+
 **Test:** It should return a range of numbers from user input.
 
 
-**Code:**
+**Code:** numberRoboNumber (10);
 
 
 **Expected Output:** [0,1,2,3,4,5,6,7,8,9,10]
