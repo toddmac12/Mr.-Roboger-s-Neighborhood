@@ -38,7 +38,7 @@ Break the program down into simple, individual behaviors using the test syntax y
 Describe: beepBoop()
 
 
-**Test:** It should return a range of numbers from user input.
+**1 Test:** It should return a range of numbers from user input.
 
 
 **Code:** numberRoboNumber (10);
@@ -47,13 +47,49 @@ Describe: beepBoop()
 **Expected Output:** [0,1,2,3,4,5,6,7,8,9,10]
 
 
-**Test:** Any inputs with the number 1 should be replaced with "Beep!"
+**2 Test:** Any inputs with the number 1 should be replaced with "Beep!"
+
+
+**Code:** numberRoboNumber(1)
+
+
+**Expected Output:** []
+
+
+**3 Test:** It should return
 
 
 **Code:** 
 
 
-**Expected Output:** [0,"Beep!?"]
+**Expected Output:** []
+
+
+**4 Test:** It should return
+
+
+**Code:** 
+
+
+**Expected Output:** []
+
+
+**5 Test:** It should return
+
+
+**Code:** 
+
+
+**Expected Output:** []
+
+
+**6 Test:** It should return
+
+
+**Code:** 
+
+
+**Expected Output:** []
 
 
 
