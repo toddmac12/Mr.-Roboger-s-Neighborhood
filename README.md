@@ -53,25 +53,25 @@ Describe: beepBoop()
 **Code:** numberRoboNumber(1)
 
 
-**Expected Output:** []
+**Expected Output:** [0,Beep!]
 
 
-**3 Test:** It should return
+**3 Test:** Any inputs with the number 2 should return "Boop!"
 
 
-**Code:** 
+**Code:** numberRoboNumber(2)
 
 
-**Expected Output:** []
+**Expected Output:** [0,Beep!,Boop!]
 
 
-**4 Test:** It should return
+**4 Test:** Any inputs with the number 3 should return "Won't you be my neighbor?!"
 
 
-**Code:** 
+**Code:** numberRoboNumber(3)
 
 
-**Expected Output:** []
+**Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?]
 
 
 **5 Test:** It should return
