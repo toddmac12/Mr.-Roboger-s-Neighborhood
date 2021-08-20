@@ -30,7 +30,7 @@ The number 21 should be replaced with "Boop".
 The number 32 should be replaced with "Won't you be my neighbor?"
 A user should be able to enter a new number and see new results over and over again.
 
-Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
+**Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5**
 
 ## Specs
 Break the program down into simple, individual behaviors using the test syntax you've learned. Begin with the simplest possible behavior. List these behaviors (also known as "specs" or "specifications") in the project's README.md file. Here's an example first spec. (Note that you can choose to name your function differently - also, your function doesn't necessarily need to output an array - it could output a string instead.)
@@ -110,7 +110,7 @@ Describe: beepBoop()
 **Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Won't you be my neighbor?,Won't you be my neighbor?]
 
 
-**9 Test:** Any inputs with the number 13 should return "Won't you be my number"
+**9 Test:** Any inputs with the number () should return ("")
 
 
 **Code:** numberRoboNumber()
@@ -126,11 +126,10 @@ Expect(beepBoop(0).toEqual([0]);
 
 ## Setup/Installation Requirements
 
-To clone and run from GitHub Repo:
+**To clone GitHub Repo: click on link** https://github.com/toddmac12/Mr.-Roboger-s-Neighborhood.git
+**To download zip file: click on link** https://github.com/toddmac12/Mr.-Roboger-s-Neighborhood/archive/refs/heads/main.zip - Do not change file structure.
 
-In bash at a folder of your choice, type the following:
-$ git clone https://github.com
-$ code .
+**In bash at a folder of your choice, type the following:** $ git clone https://github.com/toddmac12/Mr.-Roboger-s-Neighborhood.git $ code .
 Use a program such as VSCode to view and run the program.
 Alternatively, see links below to open in your browser using the Reach this webpage through the browser of your choice using the Active gh-pages link
 
