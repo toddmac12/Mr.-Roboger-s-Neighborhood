@@ -74,19 +74,46 @@ Describe: beepBoop()
 **Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?]
 
 
-**5 Test:** It should return
+**5 Test:** Any inputs with the number 13 should return "Won't you be my number"
 
 
-**Code:** 
+**Code:** numberRoboNumber(13)
 
 
-**Expected Output:** []
+**Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?]
 
 
-**6 Test:** It should return
+**6 Test:** Any inputs with the number 13 should return "Won't you be my number"
 
 
-**Code:** 
+**Code:** numberRoboNumber(13)
+
+
+**Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?]
+
+
+**7 Test:** Any inputs with the number 21 should return "Won't you be my number"
+
+
+**Code:** numberRoboNumber(21)
+
+
+**Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!]
+
+
+**8 Test:** Any inputs with the number 32 should return "Won't you be my number"
+
+
+**Code:** numberRoboNumber(32)
+
+
+**Expected Output:** [0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Won't you be my neighbor?,Won't you be my neighbor?]
+
+
+**9 Test:** Any inputs with the number 13 should return "Won't you be my number"
+
+
+**Code:** numberRoboNumber()
 
 
 **Expected Output:** []
