@@ -8,6 +8,7 @@ Anthony McRae
 ## Technologies Used
 
 HTML
+HTML Markup
 CSS
 JavaScript
 Bootstrap
@@ -15,7 +16,8 @@ VSCode
 JQuery
 Git Hub
 
-## DescriptionCreate a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+## Description
+Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
@@ -29,8 +31,13 @@ A user should be able to enter a new number and see new results over and over ag
 
 Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
 
-Specs
+## Specs
 Break the program down into simple, individual behaviors using the test syntax you've learned. Begin with the simplest possible behavior. List these behaviors (also known as "specs" or "specifications") in the project's README.md file. Here's an example first spec. (Note that you can choose to name your function differently - also, your function doesn't necessarily need to output an array - it could output a string instead.)
+## Test
+Describe: beepBoop()
+**Test:** It should return a range of numbers from user input.
+**Code:**
+**Expected Output:** [0,1,2,3,4,5,6,7,8,9,10]
 
 Describe: beepBoop()
 Test: "It should return an array with a 0 if the number 0 is inputted"
