@@ -12,8 +12,12 @@ function numberRoboNumber(number) {
     } else {
       numberUserOutput.push(i);
     }
+ $("#btnReset").click(function() {
+            location.reload();
+        });
   };
   return numberUserOutput;
+
 };
 
 //User Logic
