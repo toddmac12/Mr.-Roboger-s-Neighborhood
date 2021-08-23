@@ -1,3 +1,20 @@
-#show-contact {
-  display: none;
+
+.robogerImg {
+font-size: smaller;
+text-align-last: left;
+border-color: yellow;
+border-width: 1px;
+padding:1px;
+}
+#robogerImg-pic {float: clear;}
+
+
+
+.outPutBox {
+margin: 450px; 
+margin-top: auto; 
+width: 15em;
+  border: 1px solid #333;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }

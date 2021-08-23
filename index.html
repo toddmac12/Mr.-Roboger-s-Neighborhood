@@ -13,16 +13,23 @@
   <div class="container">
     <h1>Welcome to Mr. Roboger's Neighborhood. Enter a number to get Mr. Roboger to say hello.</h1>
     <form id="calculate">
-      <div class="form-group"><img class="img" src="img/mrRogers.jpg" />
+      <div class="form-group">
+        <div class="robogerImg"> <img class="img" src="img/mrRogers.jpg" id="robogerImg-pic" height="120" width="160">
+          This is a picture of Mr Rogers. </div>
         <lable>Enter Number</lable>
         <input type="text" Id="numberInput">
-        <button class="btn btn-success">Submit</button> <p><button class="btn btn-success" id="btnReset">Reset</button></p>
+        <button class="btn btn-success">Submit</button>
+
       </div>
     </form>
-    <h1>Mr. Roboger says!!</h1>
-    <p id="numberOutput"></p>
+
   </div>
- 
+
 </body>
+<div class="outPutBox">
+  <h2>Mr. Roboger says!!</h2>
+  <p id="numberOutput"></p>
+  <p><button class="btn btn-success" id="btnReset">Reset</button></p>
+</div>
 
 </html>
